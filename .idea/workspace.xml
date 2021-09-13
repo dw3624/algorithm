@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6500dd07-0f8a-4a2d-84f2-054962e09369" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1018_체스판다시칠하기/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/백준/1018_체스판다시칠하기/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1181_단어정렬/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/1181_단어정렬/s1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,20 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/백준/1436_영화감독숌/s1.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/백준/1654_랜선자르기/s1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="496">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/백준/1018_체스판다시칠하기/s1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/백준/1436_영화감독숌/input.txt">
+        <entry file="file://$PROJECT_DIR$/백준/1018_체스판다시칠하기/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -41,8 +52,6 @@
         <option value="$PROJECT_DIR$/백준/1010_다리놓기.py" />
         <option value="$PROJECT_DIR$/백준/1010_다리놓기/input.txt" />
         <option value="$PROJECT_DIR$/백준/1010_다리놓기/s1.py" />
-        <option value="$PROJECT_DIR$/백준/1018_체스판다시칠하기/input.txt" />
-        <option value="$PROJECT_DIR$/백준/1018_체스판다시칠하기/s1.py" />
         <option value="$PROJECT_DIR$/백준/1065_한수/input.txt" />
         <option value="$PROJECT_DIR$/백준/1065_한수/s1.py" />
         <option value="$PROJECT_DIR$/백준/1085_직사각형탈출/input.txt" />
@@ -50,14 +59,18 @@
         <option value="$PROJECT_DIR$/백준/1181_단어정렬/input.txt" />
         <option value="$PROJECT_DIR$/백준/1259_팰린드롬수/input.txt" />
         <option value="$PROJECT_DIR$/백준/1436_영화감독숌/input.txt" />
-        <option value="$PROJECT_DIR$/백준/1181_단어정렬/s1.py" />
         <option value="$PROJECT_DIR$/백준/1259_팰린드롬수/s1.py" />
         <option value="$PROJECT_DIR$/백준/1436_영화감독숌/s1.py" />
+        <option value="$PROJECT_DIR$/백준/1654_랜선자르기/input.txt" />
+        <option value="$PROJECT_DIR$/백준/1181_단어정렬/s1.py" />
+        <option value="$PROJECT_DIR$/백준/1654_랜선자르기/s1.py" />
+        <option value="$PROJECT_DIR$/백준/1018_체스판다시칠하기/input.txt" />
+        <option value="$PROJECT_DIR$/백준/1018_체스판다시칠하기/s1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1913" />
+    <option name="x" value="2873" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -69,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,19 +99,12 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="백준" type="462c0819:PsiDirectoryNode" />
-              <item name="1259_팰린드롬수" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="백준" type="462c0819:PsiDirectoryNode" />
-              <item name="1436_영화감독숌" type="462c0819:PsiDirectoryNode" />
+              <item name="1018_체스판다시칠하기" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,8 +122,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.s1">
-    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.s1 (2)">
+    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/1065_한수" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/1654_랜선자르기" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/1065_한수/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/1654_랜선자르기/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/1085_직사각형탈출" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/1018_체스판다시칠하기" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/1085_직사각형탈출/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/1018_체스판다시칠하기/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.s1" />
-        <item itemvalue="Python.s1 (4)" />
-        <item itemvalue="Python.s1 (5)" />
-        <item itemvalue="Python.s1 (3)" />
         <item itemvalue="Python.s1 (2)" />
+        <item itemvalue="Python.s1 (1)" />
+        <item itemvalue="Python.s1 (4)" />
+        <item itemvalue="Python.s1" />
+        <item itemvalue="Python.s1 (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,16 +252,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27991453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21474358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27929902" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -267,21 +274,22 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/1654_랜선자르기/s1.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/백준/1010_다리놓기.py" />
     <entry file="file://$PROJECT_DIR$/백준/1010_다리놓기/input.txt" />
     <entry file="file://$PROJECT_DIR$/백준/1010_다리놓기/s1.py" />
-    <entry file="file://$PROJECT_DIR$/백준/1018_체스판다시칠하기/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/백준/Python 배우기 (1~50) - automata.py" />
-    <entry file="file://$PROJECT_DIR$/백준/1018_체스판다시칠하기/s1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/백준/1065_한수/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -317,20 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/백준/1436_영화감독숌/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/백준/1181_단어정렬/s1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/백준/1259_팰린드롬수/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -345,10 +339,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/백준/1436_영화감독숌/s1.py">
+    <entry file="file://$PROJECT_DIR$/백준/1654_랜선자르기/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="10" />
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/1436_영화감독숌/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/1436_영화감독숌/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/1181_단어정렬/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/1654_랜선자르기/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/1018_체스판다시칠하기/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/1018_체스판다시칠하기/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
