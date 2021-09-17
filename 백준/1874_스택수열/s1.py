@@ -8,31 +8,24 @@ lst = [int(input()) for _ in range(n)]
 stack = []
 answer = []
 
-i = 0
-v = lst.pop(0)
+tmp = 0
+for _ in range(n):
+    v = lst.pop(0)
 
-while lst:
-    i %= 8
-    print(nums[i], v, lst)
-    print(stack)
-    if stack and stack[-1] == v:
-        answer.append('-')
+    while tmp < v:
+        tmp += 1
+        stack.append(tmp)
+        answer.append('+')
+
+    if stack[-1] == v:
         stack.pop()
-        v = lst.pop(0)
-        i -= 1
+        answer.append('-')
+        # print(stack)
 
-    elif nums[i] != v:
-        answer.append('+')
-        stack.append(nums[i])
 
-    elif nums[i] == v:
-        answer.append('+')
-        stack.append(nums[i])
-
-    i += 1
-    print(stack)
-    print()
-
-#
-# for a in answer:
-#     print(a)
+if stack:
+    answer = 'NO'
+    print(answer)
+else:
+    for a in answer:
+        print(a)
