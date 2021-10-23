@@ -1,8 +1,10 @@
 def FindSet(x):
+    # 메모리량 큼
     if p[x] == x:
         return x
     else:
         return FindSet(p[x])
+    # 메모리량 적음
     # if p[x] != x:
     #     p[x] = FindSet(p[x])
     # return p[x]
