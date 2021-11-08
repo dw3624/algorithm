@@ -1,0 +1,11 @@
+def solution(phone_book):
+    
+    if len(phone_book) == 1:
+        return True
+    
+    phone_book.sort()
+    
+    for p1, p2 in zip(phone_book, phone_book[1:]):
+        if p2.startswith(p1):
+            return False        
+    return True
