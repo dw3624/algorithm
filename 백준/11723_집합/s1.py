@@ -5,30 +5,29 @@ import sys
 input = sys.stdin.readline
 
 M = int(input())
-S = set()
+S = [0] * 21
 
 for _ in range(M):
     cmd = input().rstrip()
 
     if 'add' in cmd:
-        x = cmd.split()[1]
-        S.add(int(x))
+        x = int(cmd.split()[1])
+        S[x] = 1
 
     elif 'remove' in cmd:
-        x = cmd.split()[1]
-        S.discard(int(x))
+        x = int(cmd.split()[1])
+        S[x] = 0
 
     elif 'check' in cmd:
-        x = cmd.split()[1]
-        print(1) if int(x) in S else print(0)
+        x = int(cmd.split()[1])
+        print(1) if S[x] else print(0)
 
     elif 'toggle' in cmd:
-        x = cmd.split()[1]
-        x = int(x)
-        S.discard(x) if x in S else S.add(x)
+        x = int(cmd.split()[1])
+        S[x] = 0 if S[x] else 1
 
     elif 'all' in cmd:
-        S = set(range(1, 21))
+        S = [1] * 21
 
     else:
-        S = set()
+        S = [0] * 21
