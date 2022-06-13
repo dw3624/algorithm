@@ -1,37 +1,41 @@
 import sys
 sys.stdin = open('input.txt')
 
+
 def insert(x):
     heap.append(x)
     n = len(heap)-1
-    while n != 1 and x < heap[n]:
+    while n > 0 and heap[n] < heap[n//2]:
         heap[n], heap[n//2] = heap[n//2], heap[n]
         n //= 2
 
-def delete(heap):
-    heap[1], heap[-1] = heap[-1], heap[1]
-    print(heap.pop())
-    p = 1 # parent index
-    while True:
-        c = 2 * p # child index
-        if c+1 < len(heap) and heap[c] > heap[c+1]:
-            c += 1
-        if c >= len(heap) or heap[c] > heap[p]: break
 
+def delete(heap):
+    if not heap:
+        return print(0)
+
+    heap[0], heap[-1] = heap[-1], heap[0]
+    print(heap.pop())
+
+    p = 0
+    n = len(heap)
+    while True:
+        c = 2*p+1
+        if c+1 < n and heap[c+1] < heap[c]:
+            c += 1
+        if c > n-1 or heap[p] < heap[c]:
+            break
         heap[p], heap[c] = heap[c], heap[p]
         p = c
 
 
-N = int(input())
-heap = [0]
+N = int(sys.stdin.readline())
+heap = []
 
 for _ in range(N):
-    x = int(input())
+    x = int(sys.stdin.readline())
 
-    if x > 0:
+    if x:
         insert(x)
-    if x == 0:
-        if len(heap) > 1:
-            delete(heap)
-        else:
-            print(0)
+    else:
+        delete(heap)
