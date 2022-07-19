@@ -24,7 +24,7 @@ def bfs(s):
                 people[r] = cnt+1
     return sum(people)+1
 
-res = (0, 1e9)
+res = [0, 1e9]
 for i in range(1, N+1):
     total = bfs(i)
     if total < res[1]:
