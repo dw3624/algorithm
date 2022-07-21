@@ -6,13 +6,10 @@ T = int(input())
 for _ in range(T):
     M, N, x, y = map(int, input().split())
 
-    k = x if x > y else y
-    k_plus = M if x > y else N
-
-    while k < M * N:
-        if not (k-x)%M and not (k-y)%N:
-            print(k)
+    while x < M * N:
+        if not (x-y) % N:
+            print(x)
             break
-        k += k_plus
+        x += M
     else:
         print(-1)

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6500dd07-0f8a-4a2d-84f2-054962e09369" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/6064_카잉달력/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/6064_카잉달력/s1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/백준/6064_카잉달력/s1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-end-line="17" selection-end-column="17" />
+              <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -704,7 +704,7 @@
     <entry file="file://$PROJECT_DIR$/백준/6064_카잉달력/s1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-end-line="17" selection-end-column="17" />
+          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
