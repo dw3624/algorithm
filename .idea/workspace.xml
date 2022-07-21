@@ -24,17 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/백준/6064_카잉달력/s1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/백준/6064_카잉달력/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="288">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="4" selection-end-line="18" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -331,9 +322,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="761" y="0" width="782" height="831" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.295302" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -703,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/백준/6064_카잉달력/s1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="4" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
