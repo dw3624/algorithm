@@ -2,6 +2,8 @@ import sys
 
 sys.stdin = open("input.txt")
 
+from collections import deque
+
 N, M = map(int, input().split())
 mat = [input() for _ in range(N)]
 visit = [[[0] * 2 for _ in range(M)] for _ in range(N)]
@@ -13,10 +15,9 @@ visit[0][0][0] = 1
 def function(sr, sc):
     # is_break : 벽을 부쉈는지 여부
     # 0: 아직 부순 적 없음, 1: 부순 적 있음
-    q = [(sr, sc, 0)]
-
+    q = deque([(sr, sc, 0)])
     while q:
-        r, c, is_break = q.pop(0)
+        r, c, is_break = q.popleft()
 
         if r == N - 1 and c == M - 1:
             return visit[r][c][is_break]
